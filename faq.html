@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자주 묻는 질문 | PBN 빌더 자동 백링크 프로그램 분양</title>
+    <meta name="description" content="PBN 빌더 자주 묻는 질문. 자동 백링크 프로그램 분양에 관한 모든 궁금증을 해결해드립니다. 설치부터 운영까지, 친절한 가이드와 함께 시작하세요.">
+    <meta name="keywords" content="PBN 빌더, 자동 백링크 프로그램, PBN 자동화 솔루션, 자동완성 테스트 키워드, 자동완성 기능 최적화 방법, 자동완성 알고리즘 비교 분석, 자동완성 사용자 경험 개선 팁">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <link rel="canonical" href="https://pbn-builder.xyz/faq">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PBN 빌더">
+    <meta property="og:title" content="자주 묻는 질문 | PBN 빌더 자동 백링크 프로그램 분양">
+    <meta property="og:description" content="PBN 빌더 자주 묻는 질문. 자동 백링크 프로그램 분양에 관한 모든 궁금증을 해결해드립니다.">
+    <meta property="og:url" content="https://pbn-builder.xyz/faq">
+    <meta property="og:locale" content="ko_KR">
+    <style>
+        /* === RESET & BASE === */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Inter', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; color: #1a1a1a; background-color: #fafaf8; -webkit-font-smoothing: antialiased; }
+
+        /* === LAYOUT === */
+        .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* === TYPOGRAPHY === */
+        h1, h2, h3, h4 { font-weight: 600; line-height: 1.3; letter-spacing: -0.02em; }
+        h1 { font-size: clamp(2rem, 5vw, 2.75rem); margin-bottom: 1rem; }
+        h2 { font-size: clamp(1.5rem, 3.5vw, 1.875rem); margin-bottom: 1.25rem; }
+        h3 { font-size: 1.125rem; margin-bottom: 0.75rem; }
+        p { margin-bottom: 1rem; color: #3d3d3d; }
+        a { color: #2b5c3b; text-decoration: none; transition: color 0.2s ease; }
+        a:hover { color: #1a3a25; }
+
+        /* === HEADER / STICKY NAV === */
+        .site-header { position: sticky; top: 0; z-index: 100; background: rgba(250, 250, 248, 0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid #e8e6e1; padding: 0.875rem 0; }
+        .header-inner { display: flex; align-items: center; justify-content: space-between; }
+        .logo { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.03em; color: #1a1a1a; }
+        .logo span { color: #2b5c3b; }
+        .nav-present { display: flex; align-items: center; gap: 1.75rem; list-style: none; }
+        .nav-present a { font-size: 0.9375rem; font-weight: 500; color: #4a4a4a; position: relative; }
+        .nav-present a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: #2b5c3b; transition: width 0.25s ease; }
+        .nav-present a:hover::after { width: 100%; }
+        .tel-link { font-weight: 600; color: #2b5c3b; font-size: 0.9375rem; }
+        .hamburger-menu { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+        .hamburger-menu span { display: block; width: 24px; height: 2px; background: #1a1a1a; border-radius: 2px; transition: all 0.3s ease; }
+
+        /* === PAGE HEADER === */
+        .page-header { padding: 3.5rem 0 2rem; text-align: center; }
+        .page-header .badge { display: inline-block; background: #eaf4ed; color: #2b5c3b; font-size: 0.8125rem; font-weight: 600; padding: 0.375rem 0.875rem; border-radius: 100px; margin-bottom: 1rem; letter-spacing: 0.02em; }
+        .page-header p { max-width: 560px; margin: 0 auto; font-size: 1.0625rem; color: #5c5c5c; }
+
+        /* === FAQ SECTION === */
+        .faq-section { padding: 2rem 0 4rem; }
+        .faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
+        .faq-item { background: #ffffff; border: 1px solid #e8e6e1; border-radius: 12px; overflow: hidden; transition: box-shadow 0.25s ease; }
+        .faq-item:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+        .faq-question { width: 100%; background: none; border: none; padding: 1.25rem 1.5rem; font-size: 1rem; font-weight: 600; text-align: left; cursor: pointer; display: flex; align-items: center; justify-content: space-between; color: #1a1a1a; letter-spacing: -0.01em; }
+        .faq-question .icon { font-size: 1.25rem; color: #2b5c3b; transition: transform 0.3s ease; flex-shrink: 0; margin-left: 1rem; }
+        .faq-item.open .faq-question .icon { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+        .faq-item.open .faq-answer { max-height: 400px; }
+        .faq-answer-inner { padding: 0 1.5rem 1.25rem; font-size: 0.9375rem; color: #4a4a4a; line-height: 1.7; }
+
+        /* === TROUBLESHOOTING === */
+        .troubleshoot-section { padding: 3rem 0 4rem; background: #f5f3ef; border-radius: 20px; margin-bottom: 4rem; }
+        .troubleshoot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+        .trouble-card { background: #ffffff; border-radius: 10px; padding: 1.5rem; border: 1px solid #e8e6e1; transition: transform 0.2s ease; }
+        .trouble-card:hover { transform: translateY(-2px); }
+        .trouble-card .emoji { font-size: 1.5rem; margin-bottom: 0.5rem; display: block; }
+        .trouble-card h4 { font-size: 0.9375rem; margin-bottom: 0.375rem; }
+        .trouble-card p { font-size: 0.875rem; color: #5c5c5c; margin-bottom: 0; }
+
+        /* === CTA SECTION === */
+        .cta-section { text-align: center; padding: 3.5rem 2rem; background: #1a2e1f; border-radius: 20px; color: #ffffff; margin-bottom: 3rem; }
+        .cta-section h2 { color: #ffffff; margin-bottom: 0.75rem; }
+        .cta-section p { color: #cbd5c4; font-size: 1.0625rem; max-width: 480px; margin: 0 auto 1.75rem; }
+        .cta-button { display: inline-block; background: #e8b84b; color: #1a1a1a; font-weight: 700; padding: 0.875rem 2.25rem; border-radius: 100px; font-size: 1rem; letter-spacing: -0.01em; transition: background 0.25s ease, transform 0.2s ease; }
+        .cta-button:hover { background: #f0c860; transform: scale(1.03); color: #1a1a1a; }
+
+        /* === FOOTER === */
+        .site-footer { border-top: 1px solid #e8e6e1; padding: 2rem 0; text-align: center; font-size: 0.8125rem; color: #888; }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 768px) {
+            .nav-present { display: none; }
+            .hamburger-menu { display: flex; }
+            .page-header { padding: 2.5rem 0 1.5rem; }
+            .faq-question { padding: 1rem 1.25rem; font-size: 0.9375rem; }
+            .faq-answer-inner { padding: 0 1.25rem 1rem; }
+            .troubleshoot-section { padding: 2rem 1.25rem; border-radius: 16px; }
+            .cta-section { padding: 2.5rem 1.25rem; border-radius: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/" class="logo">PBN<span>빌더</span></a>
+            <nav>
+                <ul class="nav-present">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/features">기능</a></li>
+                    <li><a href="/pricing">분양 안내</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/contact">문의하기</a></li>
+                </ul>
+                <button class="hamburger-menu" aria-label="메뉴 열기">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+            <a href="tel:010-0000-0000" class="tel-link">📞 상담 전화</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 페이지 헤더 -->
+        <section class="page-header container">
+            <span class="badge">💡 자주 묻는 질문</span>
+            <h1>궁금하신 점이 있으신가요?</h1>
+            <p>PBN 빌더를 처음 접하시는 분들도 쉽게 이해하실 수 있도록, 가장 자주 들어온 질문들을 모아봤어요. 솔직하고 담백하게 알려드릴게요.</p>
+        </section>
+
+        <!-- FAQ 섹션 -->
+        <section class="faq-section container">
+            <div class="faq-list">
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        PBN 빌더, 정말 초보자도 쓸 수 있나요?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            네, 진심으로 그렇습니다. 저희도 처음에는 '과연 일반인 분들이 이걸 쓸 수 있을까?' 걱정했거든요. 그런데 실제로 분양 받으신 분들 중에 마케팅을 전혀 몰랐던 카페 사장님도 계셨고, 퇴직 후 블로그를 시작하신 50대 분도 계셨어요. 매뉴얼도 한글 버전으로 차근차근 제공해 드리고, 설치부터 첫 백링크 생성까지 평균 15분이면 충분합니다. "클릭 몇 번으로 끝났어요"라는 후기가 가장 많아요.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        자동 백링크, 검색엔진에 걸리지 않나요?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            아, 이 질문 정말 많이 받습니다. 결론부터 말씀드리면, 자연스러운 패턴으로 작동하기 때문에 오히려 안전해요. PBN 빌더는 모든 백링크를 한 번에 쏟아내는 게 아니라, 마치 사람이 일주일에 몇 개씩 꾸준히 올리는 것처럼 템포를 조절합니다. 도메인도 다양한 IP에 분산되어 있고, 각 사이트마다 콘텐츠도 조금씩 다르게 생성되도록 설계했어요. 구글이 싫어하는 건 '로봇 같은 패턴'인데, 저희는 그 반대 방향으로 수년간 튜닝해왔습니다.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        분양 가격이 좀 부담되는데, 정말 효과 있나요?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            솔직히 말씀드릴게요. 저렴한 가격은 아닙니다. 그런데 이걸 수동으로 하려면 매달 도메인 비용, 호스팅 비용, 콘텐츠 제작비, 그리고 무엇보다 '시간'이 엄청나게 들어요. 작은 업체에서 직원 한 명 고용해서 백링크 작업 시키려면 월 200만 원은 기본이거든요. PBN 빌더는 그걸 자동화해서 월 비용을 10분의 1 이하로 낮춘 셈이에요. 실제로 한 달 만에 블로그 트래
+</body>
+</html>
