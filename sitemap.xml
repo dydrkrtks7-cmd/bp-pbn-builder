@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://pbn-builder.xyz/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://pbn-builder.xyz/guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://pbn-builder.xyz/price.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://pbn-builder.xyz/review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://pbn-builder.xyz/booking.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pbn-builder.xyz/</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 </urlset>
