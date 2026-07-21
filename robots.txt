@@ -8,3 +8,4 @@ User-agent: Bingbot
 Allow: /
 
 Sitemap: https://pbn-builder.xyz/sitemap.xml
+Sitemap: https://pbn-builder.xyz/sitemap-index.xml
